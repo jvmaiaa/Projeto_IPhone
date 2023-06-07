@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background:#b3bac5;
+    
+}
+header{
+    padding: 20px 70px;
+    background: black; 
+    
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .logo{
+    width: 50px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.navigation ul li a{
+    color:#888;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.navigation ul li a:hover{
+    color:white;
+    border-bottom: 2px solid white;
+}
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*formulario */
+
+.Página-de-login{
+    width: 400px;
+    padding: 8% 0 0;
+    margin: auto;
+    height: 800px; 
+ }
+ 
+  /* Borda do formulário */
+ .Formulário-login{
+    
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+   
+  }
+  /* Input */
+  /*8px espaçamento externo superior 0 margem direita como 0 e 15px margem inferior  */
+  .form input {
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 8px 0 15px;
+    padding: 15px;
+  }
+    .form button {
+    text-transform: uppercase;
+    background: #234666;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .form .nao-registrado{
+    margin: 15px 0 0;
+    font-size: 12px;
+    color:black
+  }
+
+/* rodapé */ 
+
+footer{
+    color: #f7f2ee;
+    width: 100%;
+    padding: 50px 70px;
+    background: black; 
+}
+.nav-rodapé{
+    width: 100%;
+    display:inline-flex;
+    margin-bottom: 30px;
+}
+.preconteudo{
+    width: 70%;
+    border-right: 2px solid #7691ad;
+    text-align: left;
+}
+.footerconteudo{
+    width: 100%;
+    text-align: center;
+    image-rendering:optimizeQuality ;
+    margin: 10px 0px 0px 0px;
+}
+.postconteudo{
+    text-align: right;
+    width: 70% ;
+    border-left: 2px solid #7691ad;
+}
+
+.redes::after{
+    font-size: 40px;
+    margin-inline: 20px;
+    content: "/";
+    color: #7691ad;
+    opacity: 0.3;
+}
+.redes:last-child:after{
+    content: "";
+}
+.leitrascopy{
+    border-top: 1px solid #7691ad;
+    text-align: center;
+    padding: 30px 0 0 0 ;
+}
+.footerconteudo2{
+    
+    margin: 50px;
+}

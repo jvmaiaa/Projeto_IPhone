@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Iphone</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="iphonebrasil">
+                <img src="img/logo.png" alt="Logo do iphone" class="logo" >
+                <h3 id="Nome">Iphone Brasil </h3>
+            </div>
+            <ul>
+                <li><a href="#">Visão Geral</a></li>
+                <li><a href="#">Quem somos nós?</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contate-nos</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#" class="check">Suporte</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="img/iphone13.png" alt="Iphone 13">
+                <h3>Seu novo superpoder</h3>
+                <P>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo.<br> No iphone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos</P>
+                <h6> A partir de R$ 6.600</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>Escolha sua cor favorita:</h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="img('img/green.png'); escolher('#445c42')"></span>
+                    <span id="pink" onclick="img('img/pink.png'); escolher('#ffc9cf')"></span>
+                    <span id="blue" onclick="img('img/blue.png'); escolher('#0b839e')"></span>
+                    <span id="black" onclick="img('img/black.png'); escolher('#092732')"></span>
+                    <span id="white" onclick="img('img/white.png');escolher('#e0dbd7')"></span>
+                    <span id="red" onclick="img('img/red.png');escolher('#cf4f68')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="img/green.png" alt="Imagem do Iphone" id="iphone">
+
+            </div>
+        </section>
+    </main> 
+
+    <script type="text/javascript">
+        /*Função de mudar o celular*/
+        function img(e){
+            document.querySelector('#iphone').src = e;
+        }
+         /*Função de mudar a cor por trás do celular*/
+         function escolher(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>

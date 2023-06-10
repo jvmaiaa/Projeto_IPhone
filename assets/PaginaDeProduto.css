@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#b3bac5;
+    width: 100%;
+    height: 100vh;
+}
+.iphonebrasil{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+#Nome{
+    font-size: 20px;  
+}
+header{
+    padding: 20px 70px;
+    background: black; 
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Para melhorar a cor da logo filter */
+.navigation .logo{
+    width: 50px;
+    filter: brightness(200%);
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+/* Aumentar a fonte das letras */
+/* Linha nas letras */
+.navigation ul li a{
+    color:#888;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+/* tamanho da linha da palavra */
+.navigation ul li a:hover{
+    color:white;
+    border-bottom: 2px solid white;
+
+}
+/* para deixar em evidência a palavra */
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+ /*corpo do texto */
+.container{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.container .card{
+    /* sombra   */
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background:black;
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: 0.3s;
+}
+
+.container .card:hover{
+    transform: scale(1.050);
+}
+
+.container .card .card-titulo{
+    /*  traço */
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+.container .card .card-titulo h2{
+    font-size: 35px;
+    padding: 15px;
+    color: white;
+}
+
+.container .card .card-titulo p{
+    font-size: 20px;
+    
+}
+
+.container .card .card-content ul{
+    padding: 10px 20px 30px;
+}
+
+.container .card .card-content li{
+    padding: 10px;
+}
+
+.container .card .card-content  i{
+    margin-right: 4px;
+}
+
+.container .card .card-content button{
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.container .card .card-content button:hover{
+    background: gray;
+    letter-spacing: 1.2px;
+}
+.container .card .card-content button a{
+    color: black;
+    font-size: 15px;
+}
+
+
+/* rodapé */ 
+
+footer{
+    color: #f7f2ee;
+    width: 100%;
+    padding: 50px 70px;
+    background: black; 
+}
+.nav-rodapé{
+    width: 100%;
+    display:inline-flex;
+    margin-bottom: 30px;
+}
+.preconteudo{
+    width: 70%;
+    border-right: 2px solid #7691ad;
+    text-align: left;
+}
+.footerconteudo{
+    width: 100%;
+    text-align: center;
+    image-rendering:optimizeQuality ;
+    margin: 10px 0px 0px 0px;
+}
+.postconteudo{
+    text-align: right;
+    width: 70% ;
+    border-left: 2px solid #7691ad;
+}
+
+.redes::after{
+    font-size: 40px;
+    margin-inline: 20px;
+    content: "/";
+    color: #7691ad;
+    opacity: 0.3;
+}
+.redes:last-child:after{
+    content: "";
+}
+.leitrascopy{
+    border-top: 1px solid #7691ad;
+    text-align: center;
+    padding: 30px 0 0 0 ;
+}
+.footerconteudo2{
+    
+    margin: 50px;
+}

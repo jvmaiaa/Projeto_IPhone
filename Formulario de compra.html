@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" >
+    <link rel="stylesheet" href="assets/FormularioDeCompra.CSS.css">
+    <title>Iphone</title>
+
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navigation">
+            <div class="iphonebrasil">
+                <img src="img/logo.png" alt="Logo do iphone" class="logo" >
+                <h3 id="Nome">Iphone Brasil </h3>
+            </div>  
+            <ul>
+                
+                <li><a href="#">Visão Geral</a></li>
+                <li><a href="#">Quem somos nós?</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contate-nos</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#" class="check">Suporte</a></li>
+            </ul>
+        </nav>
+    </header> 
+  <body >
+    <h4 class="h4">Agora preencha os seus dados pessoais para que a compra seja efetivada.</h4>
+        <form action="#" method="post" class="form">
+  <!-- DADOS PESSOAIS-->
+    <div class="Dados-Pessoais">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+              <table cellspacing="10">
+              <tr>
+                 <td> 
+                  <label for="nome">Nome: </label> 
+                </td>
+                 <td align="left">        
+                    <input type="text" name="email">
+                 </td>
+                 <td> 
+                  <label for="sobrenome">Sobrenome: </label>
+                 </td>             
+                 <td align="left">
+                   <input type="text" name="sobrenome">
+                 </td>
+              </tr>
+              <tr>
+                  <td> 
+                    <label>Nascimento: </label> 
+                  </td>
+                  <td align="left">
+                    <input type="text" name="dia" size="2" maxlength="2" placeholder="dd">
+                    <input type="text" name="mes" size="2" maxlength="2" placeholder="mm">
+                    <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+                </td>
+              </tr>
+              <tr>
+                  <td> 
+                    <label for="rg">RG: </label> 
+                  </td>
+                  <td align="left">
+                      <input type="text" name="rg" size="13" maxlength="13">
+                  </td>
+              </tr>
+              <tr>
+                 <td> 
+                    <label>CPF:</label>
+                 </td>               
+                  <td align="left">
+                    <input type="text" name="cpf" size="9" maxlength="9"> -
+                    <input type="text" name="cpf2" size="2" maxlength="2">
+                  </td>
+              </tr>
+            </table>
+        </fieldset>
+          <br>
+
+<!-- ENDEREÇO -->
+
+       <fieldset>
+        <legend>Dados de Endereço</legend>
+          <table cellspacing="10">
+            <tr>
+              <td>
+                 <label for="rua">Rua:</label> 
+              </td>
+              <td align="left">
+                <input type="text" name="rua">
+              </td>
+              <td> 
+                <label for="numero">Numero:</label> 
+              </td>
+              <td align="left">
+                <input type="text" name="numero" size="4">
+              </td>
+            </tr>
+            <tr>
+              <td> 
+                <label for="bairro">Bairro: </label> 
+              </td>
+              <td align="left">
+                <input type="text" name="bairro">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="estado">Estado:</label>
+              </td>
+              <td align="left">
+                <select name="estado">
+                  <option value="">Selecione um Estado</option>
+                  <option value="AC">AC</option>
+                  <option value="AL">AL</option>
+                  <option value="AM">AM</option>
+                  <option value="AP">AP</option>
+                  <option value="BA">BA</option>
+                  <option value="CE">CE</option>
+                  <option value="DF">DF</option>
+                  <option value="ES">ES</option>
+                  <option value="GO">GO</option>
+                  <option value="MA">MA</option>
+                  <option value="MT">MT</option>
+                  <option value="MS">MS</option>
+                  <option value="MG">MG</option>
+                  <option value="PA">PA</option>
+                  <option value="PB">PB</option>
+                  <option value="PR">PR</option>
+                  <option value="PE">PE</option>
+                  <option value="PI">PI</option>
+                  <option value="RJ">RJ</option>
+                  <option value="RN">RN</option>
+                  <option value="RO">RO</option>
+                  <option value="RS">RS</option>
+                  <option value="RR">RR</option>
+                  <option value="SC">SC</option>
+                  <option value="SE">SE</option>
+                  <option value="SP">SP</option>
+                  <option value="TO">TO</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="cidade">Cidade: </label>
+              </td>
+              <td align="left">
+                <input type="text" name="cidade">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="cep">CEP: </label>
+              </td>
+              <td align="left">
+                <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">                   
+              </td>
+            </tr>
+          </table>
+       </fieldset>
+          <br>
+       <fieldset>
+        <legend>Forma de pagamento com cartão</legend>
+          <table cellspacing="10">
+            <tr>
+              <td>
+                <label for="Titular do Cartão">Titular do Cartão: </label>
+             </td>
+             <td align="left">
+                <input type="text" name="Titular do cartão">
+              </td>
+              <td>
+                <label >CVV</label>
+              </td>
+              <td align="left">
+                <input type="text" name="CVV">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Vencimento do Cartão: </label>
+              </td>
+              <td align="left">
+                 <input type="text" name="dia" size="2" maxlength="2" placeholder="dd">
+                 <input type="text" name="mes" size="2" maxlength="2" placeholder="mm">
+                 <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+              </td>
+            </tr>
+            <tr>
+               <td>
+                  <label for="rg">Número do cartão: </label>
+                </td>
+                <td align="left">
+                  <input type="text" name="rg" size="13" maxlength="13">
+                </td>
+            </tr>
+            <tr>
+               <td> 
+                <label for="foto do cartão"> Foto do Cartão</label> 
+               </td>
+               <td align="left">
+                  <input type="file">
+               </td>
+            </tr>
+          </table>
+        </fieldset>
+            <br/>
+        <fieldset>
+           <legend>Forma de pagamento com Pix</legend>
+              <table cellspacing="10">
+                  <tr>
+                     <tb>
+                       <label for="sobrenome">Pix:</label>
+                    <tb>
+                       <p> (xx) xxxx-xxxx </p>
+                    </tr>
+              </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Comprovante de Pagamento</legend>
+                <table cellspacing="10">
+                  <tr>
+                      <td>
+                        <label for="arquivo"> Comprovante do Pagamento</label>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <input type="file">
+                     </td>
+                  </tr>
+                </table>
+        </fieldset>
+    </form>
+    <br>
+    <button type="submit" class="button"> Enviar</button>
+  </div>
+     <!--Rodapé-->
+   <footer>
+    <nav class="nav-rodapé">
+        <div class="preconteudo">
+            <h4>Team projeto iphone</h4>
+            <br>
+                <ul>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                </ul>
+        </div>
+        <div class="footerconteudo">
+            <h4 style="margin-bottom: 10px;">Siga-nos</h4>
+            <Span class="redes"><a target="_blank" href="https://www.instagram.com/"><img src="img/ig.png" width="30px"></a></Span>
+            <Span class="redes"><a target="_blank" href="https://www.facebook.com/"><img src="img/face.png" width="30px"></a></Span>
+            <Span class="redes"><a target="_blank" href="https://web.whatsapp.com/"><img src="img/wpp.png" width="30px" ></a></Span>
+            <Span class="redes"><a target="_blank" href="https://github.com/"><img src="img/gh.png" width="33px"></a></Span>
+            <Span class="redes"><a target="_blank" href="https://www.youtube.com/"><img src="img/ytb.png" width="40px"></a></Span>
+            <Span class=""><a target="_blank" href="https://mail.google.com/"><img src="img/email.png" width="43px"></a></Span>
+        </div>
+        <div class="postconteudo">
+            <h4>Clientes</h4>
+            <br>
+                <ul>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                </ul>
+        </div>
+    </nav>
+    <h4 class="leitrascopy">Copyright © 2023 Projeto Iphone</h4>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+    
+
+

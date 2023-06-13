@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" >
+    <link rel="stylesheet" href="assets/Iphone14pro.css">
+    <title>Iphone</title>
+
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navigation">
+            <div class="iphonebrasil">
+                <img src="img/logo.png" alt="Logo do iphone" class="logo" >
+                <h3 id="Nome">Iphone Brasil </h3>
+            </div>  
+            <ul>
+                
+                <li><a href="#">Visão Geral</a></li>
+                <li><a href="#">Quem somos nós?</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contate-nos</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#" class="check">Suporte</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="img/IPhone 14 pro logo.png"alt="Iphone 13">
+                <h3>Seu novo superpoder</h3>
+                <P>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo.<br> No iphone 14, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos</P>
+                <h6> A partir de R$ 10.500</h6>
+                <table border="1" aling="center" >
+                    <thead>
+                        <tr>
+                            <th colspan="2">Oferta Promorcional</th>
+                        </tr>
+                        <tr>
+                            <th>Armazenamento</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><center>128 GB</center></td>
+                            <td>R$ 10.500</td>
+                        </tr>
+
+                        <tr>
+                            <td><center>256 GB</center></td>
+                            <td>R$ 12.200</td>
+                        </tr>
+                        <Tr>
+                            <td><center>512 GB</center></td>
+                            <td>R$ 14.500</td>
+                        </Tr>
+
+                        <tr>
+                            <td><center>1 TB</center></td>
+                            <td>R$ 15.500</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <br>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>Escolha sua cor favorita:</h5>
+                </div>
+                <div class="content">
+                    <span id="preto" onclick="img('img/iphonepreto.png'); escolher('#000000')"></span>
+                    <span id="branco" onclick="img('img/iphonebranco.png'); escolher('#ffffff')"></span>
+                    <span id="roxo" onclick="img('img/iphoneroxo.png'); escolher('#663399')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="img/iphonepreto.png" alt="Imagem do Iphone" id="iphone">
+            </div>
+        </section>
+    </main> 
+
+    <script type="text/javascript">
+        /*Função de mudar o celular*/
+        function img(e){
+            document.querySelector('#iphone').src = e;
+        }
+         /*Função de mudar a cor por trás do celular*/
+         function escolher(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+     <!--Rodapé-->
+   <footer>
+    <nav class="nav-rodapé">
+        <div class="preconteudo">
+            <h4>Team projeto iphone</h4>
+            <br>
+                <ul>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                </ul>
+        </div>
+        <div class="footerconteudo">
+            <h4 style="margin-bottom: 10px;">Siga-nos</h4>
+            <Span class="redes"><a target="_blank" href="https://www.instagram.com/"><img src="img/ig.png" width="30px"></a></Span>
+            <Span class="redes"><a target="_blank" href="https://www.facebook.com/"><img src="img/face.png" width="30px"></a></Span>
+            <Span class="redes"><a target="_blank" href="https://web.whatsapp.com/"><img src="img/wpp.png" width="30px" ></a></Span>
+            <Span class="redes"><a target="_blank" href="https://github.com/"><img src="img/gh.png" width="33px"></a></Span>
+            <Span class="redes"><a target="_blank" href="https://www.youtube.com/"><img src="img/ytb.png" width="40px"></a></Span>
+            <Span class=""><a target="_blank" href="https://mail.google.com/"><img src="img/email.png" width="43px"></a></Span>
+        </div>
+        <div class="postconteudo">
+            <h4>Clientes</h4>
+            <br>
+                <ul>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                </ul>
+        </div>
+    </nav>
+    <h4 class="leitrascopy">Copyright © 2023 Projeto Iphone</h4>
+</footer>
+</body>
+</html>

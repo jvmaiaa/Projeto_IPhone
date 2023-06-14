@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Iphone 13</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="iphonebrasil">
+                <img src="img/logo.png" alt="Logo do iphone" class="logo" >
+                <h3 id="Nome">WebPhone</h3>
+            </div>
+            <ul>
+                <li><a href="principal.html">Visão Geral</a></li>
+                <li><a href="perfil.html">Quem somos nós?</a></li>
+                <li><a href="Página de produto.html">Produtos</a></li>
+                <li><a href="contato.html">Contate-nos</a></li>
+                <li><a href="formulario.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="img/iphone13.png" alt="Iphone 13">
+                <h3>Seu novo superpoder</h3>
+                <P>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo.<br> No iphone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos</P>
+                <h6> A partir de R$ 6.499</h6>
+                <table border="1" aling="center" >
+                    <thead>
+                        <tr>
+                            <th colspan="2">Oferta Promorcional</th>
+                        </tr>
+                        <tr>
+                            <th>Armazenamento</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><center>128 GB</center></td>
+                            <td>R$ 6.499</td>
+                        </tr>
+
+                        <tr>
+                            <td><center>256 GB</center></td>
+                            <td>R$ 7.500</td>
+                        </tr>
+                        <Tr>
+                            <td><center>512 GB</center></td>
+                            <td>R$ 9.500</td>
+                        </Tr>
+                    </tbody>
+                </table>
+                <br>
+                <a href="Formulario de compra.html" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>Escolha sua cor favorita:</h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="img('img/green.png'); escolher('#445c42')"></span>
+                    <span id="pink" onclick="img('img/pink.png'); escolher('#ffc9cf')"></span>
+                    <span id="blue" onclick="img('img/blue.png'); escolher('#0b839e')"></span>
+                    <span id="black" onclick="img('img/black.png'); escolher('#092732')"></span>
+                    <span id="white" onclick="img('img/white.png');escolher('#e0dbd7')"></span>
+                    <span id="red" onclick="img('img/red.png');escolher('#cf4f68')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="img/green.png" alt="Imagem do Iphone" id="iphone">
+
+            </div>
+        </section>
+    </main> 
+
+    <script type="text/javascript">
+        /*Função de mudar o celular*/
+        function img(e){
+            document.querySelector('#iphone').src = e;
+        }
+         /*Função de mudar a cor por trás do celular*/
+         function escolher(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+    <footer>
+        <nav class="nav-rodapé">
+            <div class="preconteudo">
+                <h4>Team projeto iphone</h4>
+                <br>
+                    <ul>
+                        <li>Rodrigo Cordeiro Tavares Pereira;</li>
+                        <li>João Víctor Maia;</li>
+                        <li>Vitor Duarte de Brito;</li>
+                        <li>Duan de Oliveira Barbosa;</li>
+                        <li>Paulo Enrique Méndez Soliz</li>
+                    </ul>
+            </div>
+            <div class="footerconteudo">
+                <h4 style="margin-bottom: 10px;">Siga-nos</h4>
+                <Span class="redes"><a target="_blank" href="https://www.instagram.com/"><img src="img/ig.png" width="30px"></a></Span>
+                <Span class="redes"><a target="_blank" href="https://www.facebook.com/"><img src="img/face.png" width="30px"></a></Span>
+                <Span class="redes"><a target="_blank" href="https://web.whatsapp.com/"><img src="img/wpp.png" width="30px" ></a></Span>
+                <Span class="redes"><a target="_blank" href="https://github.com/"><img src="img/gh.png" width="33px"></a></Span>
+                <Span class="redes"><a target="_blank" href="https://www.youtube.com/"><img src="img/ytb.png" width="40px"></a></Span>
+                <Span class=""><a target="_blank" href="https://mail.google.com/"><img src="img/email.png" width="43px"></a></Span>
+            </div>
+            <div class="postconteudo">
+                <h4>Produtos</h4>
+                <br>
+                    <ul>
+                        <li><a href="Iphone 12.html" class="cor-botao">IPhone 12</a></li>
+                        <li><a href="Iphone 13.html" class="cor-botao">IPhone 13</a></li>
+                        <li><a href="Iphone14.html" class="cor-botao">IPhone 14</a></li>
+                        <li><a href="contato.html" class="cor-botao">Contato</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <h4 class="leitrascopy">&COPY; 2023 Projeto Iphone</h4>
+    </footer>			
+        </body>
+    </html>

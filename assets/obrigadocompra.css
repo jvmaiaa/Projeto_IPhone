@@ -14,14 +14,12 @@ body{
 .iphonebrasil{
     display: flex;
     align-items: center;
-    color: white; 
-}
-#Nome{
-    font-size: 20px;  
+    color: white;
 }
 header{
     padding: 20px 70px;
     background: black; 
+    
 }
 .navigation{
     display: flex;
@@ -50,102 +48,52 @@ header{
     color: #fff;
     border-bottom: 1px solid #fff;
 }
-main section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5rem 10rem;
-}
-.main-text img{
-    width: 15rem;
-    margin-bottom: 2vh;
-}
-.main-text h3{
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
-}
-.main-text p{
-    margin-bottom: 1.5rem;
-}
-.main-text h6{
-    color:black;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-}
-.main-text .btn{
-    padding: 10px 25px;
-    background: #0071e3;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 1.5rem;
-    transition: all 0.5s;
-}
-.main-text .btn:hover{
+
+/*Formulario*/
+
+.Página-de-login{
+    width: 400px;
+    height: 650px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+ 
+  .Formulário-login{
     
-    opacity: .80;
-    color:black
-}
-.main-text .text h5{
-    font-size: 2rem;
-    color: #444;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.main-text .content {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.main-text .content span{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor:pointer;
-    box-shadow: 2px 2px ;
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
    
-}
-.main-text .content span:hover{
-    opacity: .50;
-}
-#green{
-    background: #384937;
-}
-#pink{
-    background: #f8ddd6;
-}
-#blue{
-    background: #225f7e;
-}
-#black{
-    background: #192028;
-}
-#white{
-    background: #f7f2ee;
-}
-#red{
-    background: #f9061e;
-}
-/* z-index para aceitar o valor negativo*/
-
-.main-img{
-    z-index: 100;
-}
-.main-img img{
-    width: 500px;
-    transform:rotate(-7deg);
-}
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
+  }
+  .form input {
+    background: #f2f2f2;
     width: 100%;
-    height: 116%;
-    background: #445c42;
-    clip-path: circle(800px at right 1000px);
-}
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+  }
+  /* Deixar a letra maiúsculas. */
+  .form button {
+    text-transform: uppercase;
+    background: #234666;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+  }
 
-/* rodapé */ 
+  .form .nao-registrado{
+    margin: 15px 0 0;
+    font-size: 12px;
+    color:black
+  }
+  
+  /* rodapé */ 
 
 footer{
     color: #f7f2ee;

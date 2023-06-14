@@ -15,6 +15,14 @@ body{
     flex-direction: column;
     min-height: 100%;
 }
+#Nome{
+    font-size: 20px;  
+}
+.iphonebrasil{
+    display: flex;
+    align-items: center;
+    color: white;
+}
 header{
     padding: 20px 70px;
     background: black; 
@@ -27,6 +35,7 @@ header{
 }
 .navigation .logo{
     width: 50px;
+    filter: brightness(200%);
 }
 .navigation ul{
     display: flex;
@@ -59,6 +68,7 @@ header{
     align-items: center;
     animation: iniciar 1s ease-out;
     pointer-events: all;
+    box-shadow: 2px 5px 15px black
 }
 .title {
     font-size: 1.8em;
@@ -104,15 +114,14 @@ header{
     text-align: center;
 }
 #btn button {
-    font-family: 'Poppins', sans-serif;
-    background: black;
+     text-transform: uppercase;
+    background: #234666;
     width: 100%;
-    height: auto;
-    border: none;
-    font-size: 1.2em;
-    color: #fff;
-    border-radius: 20px;
-    outline: none;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
     cursor: pointer;
 }
 #btn button:hover {
@@ -168,18 +177,6 @@ footer{
     
     margin: 50px;
 }
-a:link{
-    color: #7691ad;
-}
-a:visited{
-    color: #c64310;
-}
-a:hover{
-    color: rgb(72, 85, 203);
-}
-a:active{
-    color: rgb(31, 143, 212);
-}
 @keyframes iniciar {
     0% {
         top: -20%;
@@ -191,4 +188,8 @@ a:active{
         opacity:100%;
         pointer-events: all;
     }
+}
+/* Cor do Botão de Login/Cadastro */
+.cor-botao{
+    color: white;
 }

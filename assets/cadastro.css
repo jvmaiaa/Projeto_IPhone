@@ -8,8 +8,15 @@
 }
 
 body{
-    background:#b3bac5;
-    
+    background:#b3bac5;   
+}
+#Nome{
+    font-size: 20px;  
+}
+.iphonebrasil{
+    display: flex;
+    align-items: center;
+    color: white;
 }
 header{
     padding: 20px 70px;
@@ -23,6 +30,7 @@ header{
 }
 .navigation .logo{
     width: 50px;
+    filter: brightness(200%);
 }
 .navigation ul{
     display: flex;
@@ -77,7 +85,7 @@ header{
     width: 100%;
     border: 0;
     padding: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 7px;
     font-size: 14px;
     cursor: pointer;
@@ -136,4 +144,8 @@ footer{
 .footerconteudo2{
     
     margin: 50px;
+}
+/* Cor do Botão de Login/Cadastro */
+.cor-botao{
+    color: white;
 }

@@ -6,18 +6,13 @@
     text-decoration: none;
     font-family: sans-serif;
 }
+#Nome{
+    font-size: 20px;  
+}
 
 body{
     background:#b3bac5;
     
-}
-.iphonebrasil{
-    display: flex;
-    align-items: center;
-    color: white; 
-}
-#Nome{
-    font-size: 20px;  
 }
 header{
     padding: 20px 70px;
@@ -27,6 +22,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.iphonebrasil{
+    display: flex;
+    align-items: center;
+    color: white;
 }
 .navigation .logo{
     width: 50px;
@@ -108,24 +108,17 @@ main section{
 .main-text .content span:hover{
     opacity: .50;
 }
-#green{
-    background: #384937;
+
+#preto{
+    background: black;
 }
-#pink{
-    background: #f8ddd6;
+#branco{
+    background:white;
 }
-#blue{
-    background: #225f7e;
+#roxo{
+    background: rebeccapurple;
 }
-#black{
-    background: #192028;
-}
-#white{
-    background: #f7f2ee;
-}
-#red{
-    background: #f9061e;
-}
+
 /* z-index para aceitar o valor negativo*/
 
 .main-img{
@@ -134,14 +127,14 @@ main section{
 .main-img img{
     width: 500px;
     transform:rotate(-7deg);
-}
+ }
 .circle{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 116%;
-    background: #445c42;
+    height: 108%;
+    background: black;
     clip-path: circle(800px at right 1000px);
 }
 

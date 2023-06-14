@@ -9,9 +9,11 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: #f1f1f1
-    
+    background:#b3bac5;    
 } 
+#Nome{
+    font-size: 20px;  
+}
 .iphonebrasil{
     display: flex;
     align-items: center;
@@ -146,4 +148,8 @@ header{
 .navigation .check{
     color: #fff;
     border-bottom: 1px solid #fff;
+}
+/* Cor do Botão de Login/Cadastro */
+.cor-botao{
+    color: white;
 }

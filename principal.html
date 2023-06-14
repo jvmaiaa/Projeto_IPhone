@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo.png" >
-    <link rel="stylesheet" href="assets/PaginaDeProduto.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="assets/principal.css">
+    <script src="assets/script.js" defer></script>
     <!--Link do check-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Produtos</title>
+    <title>Visão Geral</title>
 </head>
 <body>
      <!--Cabeçalho-->
@@ -19,14 +20,47 @@
                 <h3 id="Nome">WebPhone</h3>
             </div>
             <ul>
-                <li><a href="principal.html">Visão Geral</a></li>
+                <li><a href="principal.html" class="check">Visão Geral</a></li>
                 <li><a href="perfil.html">Quem somos nós?</a></li>
-                <li><a href="Página de produto.html"class="check">Produtos</a></li>
+                <li><a href="Página de produto.html">Produtos</a></li>
                 <li><a href="contato.html">Contate-nos</a></li>
                 <li><a href="formulario.html">Login</a></li>
             </ul>
         </nav>
-    </header>
+    </header> 
+    <section class="slider">
+        <div class="slider-content">
+
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <a href="Iphone14.html"><img src="img/iphones14teste2.png" alt="slide 1"> </a>
+            </div>
+
+            <div class="slide-box">
+                <a href="Iphone 13.html"><img src="img/iphones13teste2.png" alt="slide 2"></a>
+            </div>
+
+            <div class="slide-box">
+                <a href="Iphone 12.html"><img src="img/iphones12teste2.png" alt="slide 3"></a>
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    
    <div class="container">
        <div class="card">
            <div class="card-titulo">
@@ -35,7 +69,7 @@
            </div>
            <div class="card-content">
                <ul>
-                   <li><i class="fa fa-check-circle"></i>64 GB, 128 GB, 256 GB</li>
+                   <li><i class="fa fa-check-circle"></i>64GB, 128GB, 256GB</li>
                    <li><i class="fa fa-check-circle"></i>5G</li>
                    <li><i class="fa fa-check-circle"></i>Tela Super Retina XDR de 6,1 polegadas</li>
                    <li><i class="fa fa-check-circle"></i>Sistema de câmera dupla (ultra-angular e grande-angular) de 12 MP</li>
@@ -47,7 +81,7 @@
        </div>
        <div class="card">
            <div class="card-titulo">
-               <h2>Iphone 13</h2>
+               <h2>A Iphone 13</h2>
                <p><Span>A partir de R$ 6.499</Span></p>
            </div>
            <div class="card-content">
@@ -69,7 +103,7 @@
            </div>
            <div class="card-content">
                <ul>
-                   <li><i class="fa fa-check-circle"></i>125 GB , 256 GB, 512 GB, 1 TB</li>
+                   <li><i class="fa fa-check-circle"></i>125 GB , 256GB, 512 GB, 1 TB</li>
                    <li><i class="fa fa-check-circle"></i>5G</li>
                    <li><i class="fa fa-check-circle"></i>Câmera grande-angular de 48 MP </li>
                    <li><i class="fa fa-check-circle"></i>Tela Super Retina XDR de 6,1 polegadas</li>
